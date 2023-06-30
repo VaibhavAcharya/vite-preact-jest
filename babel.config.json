@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", {
+        "targets": {
+          "node": "current",
+          "esmodules": true
+        }
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic",
+        "importSource": "preact"
+      }
+    ],
+    "@babel/preset-typescript"
+  ],
+  // "plugins": [
+  //   ["@babel/plugin-transform-react-jsx", { "pragma": "h" }]
+  // ]
+}
